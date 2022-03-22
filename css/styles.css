@@ -273,6 +273,10 @@ img {
   right: 0;
   bottom: 0;
   width: 260px;
+  /* home image doesn't appear on Netlify */
+  opacity: unset;
+  transform: unset;
+  transition: unset;
 }
 
 .home__blob {
